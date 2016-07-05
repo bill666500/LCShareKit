@@ -11,10 +11,10 @@
 #import "WeiboSDK.h"
 #import "LCLoginInfo.h"
 
-#define kRedirectURI    @"http://m.ifeng.com"
+#define kRedirectURI    @""
 #define kWeiboStoreKey  @"kWeiboStoreKey"
-#define kWeiboAPPId @"wb2639294266"
-#define kWeiboSecret @"0746d8a294d7933100ce34aab3d50899"
+#define kWeiboAPPId @""
+#define kWeiboSecret @""
 
 @interface LCWeiboObject()<WeiboSDKDelegate,WBHttpRequestDelegate>
 

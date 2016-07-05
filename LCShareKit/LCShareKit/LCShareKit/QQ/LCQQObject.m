@@ -7,7 +7,7 @@
 //
 
 #import "LCQQObject.h"
-#define TencentAppId @"101053114"
+#define TencentAppId @""
 #define kQQAuthDic @"QQAuthDic"
 #define kQQAccessTokenKey @"QQAccessTokenKey"
 #define kQQExpirationDateKey @"QQExpirationDateKey"

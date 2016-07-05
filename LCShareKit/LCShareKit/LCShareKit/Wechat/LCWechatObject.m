@@ -10,8 +10,8 @@
 #import "LCLoginInfo.h"
 
 #define kWechatStoreKey @"kWechatStoreKey"
-#define WeixinAPPId @"wx8b2030599240f886"
-#define WeixinSecret @"d428d9d8d87fdd965c6fa6ef634f6873"
+#define WeixinAPPId @""
+#define WeixinSecret @""
 
 #define GlobleHeight [[UIScreen mainScreen] bounds].size.height
 

@@ -8,14 +8,14 @@
 
 #import "LCShareManager.h"
 
-#define WXAppKey @"wx8b2030599240f886"
-#define TencentAppId @"101053114"
-#define SinaWeiboKey @"2639294266"
+#define WXAppKey @""
+#define TencentAppId @""
+#define SinaWeiboKey @""
 
-#define kAppKeySina @"wb2639294266"
-#define kAppSecretSina @"0746d8a294d7933100ce34aab3d50899"
-#define kAppRedirectURISina @"http://m.ifeng.com"
-#define kAppIDAliPay @"2015082600234219"
+#define kAppKeySina @""
+#define kAppSecretSina @""
+#define kAppRedirectURISina @""
+
 
 @implementation LCShareManager
 
