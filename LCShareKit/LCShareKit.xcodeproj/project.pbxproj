@@ -21,6 +21,20 @@
 		9D3925211C0C1B1F0055B2EE /* read_me.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9D39250C1C0C1B1F0055B2EE /* read_me.txt */; };
 		9D3925221C0C1B1F0055B2EE /* libWeiboSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D3925101C0C1B1F0055B2EE /* libWeiboSDK.a */; };
 		9D3925231C0C1B1F0055B2EE /* WeiboSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9D3925191C0C1B1F0055B2EE /* WeiboSDK.bundle */; };
+		9D4E00211D2B890500091FDD /* LCShareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D4E00201D2B890500091FDD /* LCShareManager.m */; };
+		9D4E002B1D2B930F00091FDD /* LCWeiboObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D4E002A1D2B930F00091FDD /* LCWeiboObject.m */; };
+		9D4E002E1D2B933200091FDD /* LCWechatObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D4E002D1D2B933200091FDD /* LCWechatObject.m */; };
+		9D4E00311D2B934800091FDD /* LCQQObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D4E00301D2B934800091FDD /* LCQQObject.m */; };
+		9D4E00341D2B941300091FDD /* LCPlatformObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D4E00331D2B941300091FDD /* LCPlatformObject.m */; };
+		9D4E00371D2B999F00091FDD /* LCLoginInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D4E00361D2B999F00091FDD /* LCLoginInfo.m */; };
+		9D4E00391D2BA5CC00091FDD /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D4E00381D2BA5CC00091FDD /* Security.framework */; };
+		9D4E003B1D2BA5DC00091FDD /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D4E003A1D2BA5DC00091FDD /* libiconv.tbd */; };
+		9D4E003D1D2BA5ED00091FDD /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D4E003C1D2BA5ED00091FDD /* SystemConfiguration.framework */; };
+		9D4E003F1D2BA60100091FDD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D4E003E1D2BA60100091FDD /* CoreGraphics.framework */; };
+		9D4E00411D2BA60F00091FDD /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D4E00401D2BA60F00091FDD /* libsqlite3.tbd */; };
+		9D4E00431D2BA61F00091FDD /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D4E00421D2BA61F00091FDD /* CoreTelephony.framework */; };
+		9D4E00451D2BA62C00091FDD /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D4E00441D2BA62C00091FDD /* libstdc++.tbd */; };
+		9D4E00471D2BA63700091FDD /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D4E00461D2BA63700091FDD /* libz.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +68,27 @@
 		9D3925191C0C1B1F0055B2EE /* WeiboSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WeiboSDK.bundle; sourceTree = "<group>"; };
 		9D39251A1C0C1B1F0055B2EE /* WeiboSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiboSDK.h; sourceTree = "<group>"; };
 		9D39251B1C0C1B1F0055B2EE /* WeiboUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiboUser.h; sourceTree = "<group>"; };
+		9D4E001F1D2B890500091FDD /* LCShareManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCShareManager.h; sourceTree = "<group>"; };
+		9D4E00201D2B890500091FDD /* LCShareManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCShareManager.m; sourceTree = "<group>"; };
+		9D4E00251D2B913500091FDD /* LCShareDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCShareDefine.h; sourceTree = "<group>"; };
+		9D4E00291D2B930F00091FDD /* LCWeiboObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCWeiboObject.h; sourceTree = "<group>"; };
+		9D4E002A1D2B930F00091FDD /* LCWeiboObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCWeiboObject.m; sourceTree = "<group>"; };
+		9D4E002C1D2B933200091FDD /* LCWechatObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCWechatObject.h; sourceTree = "<group>"; };
+		9D4E002D1D2B933200091FDD /* LCWechatObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCWechatObject.m; sourceTree = "<group>"; };
+		9D4E002F1D2B934800091FDD /* LCQQObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCQQObject.h; sourceTree = "<group>"; };
+		9D4E00301D2B934800091FDD /* LCQQObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCQQObject.m; sourceTree = "<group>"; };
+		9D4E00321D2B941300091FDD /* LCPlatformObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCPlatformObject.h; sourceTree = "<group>"; };
+		9D4E00331D2B941300091FDD /* LCPlatformObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCPlatformObject.m; sourceTree = "<group>"; };
+		9D4E00351D2B999F00091FDD /* LCLoginInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCLoginInfo.h; sourceTree = "<group>"; };
+		9D4E00361D2B999F00091FDD /* LCLoginInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCLoginInfo.m; sourceTree = "<group>"; };
+		9D4E00381D2BA5CC00091FDD /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		9D4E003A1D2BA5DC00091FDD /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		9D4E003C1D2BA5ED00091FDD /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		9D4E003E1D2BA60100091FDD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9D4E00401D2BA60F00091FDD /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		9D4E00421D2BA61F00091FDD /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		9D4E00441D2BA62C00091FDD /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		9D4E00461D2BA63700091FDD /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +96,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D4E00471D2BA63700091FDD /* libz.tbd in Frameworks */,
+				9D4E00451D2BA62C00091FDD /* libstdc++.tbd in Frameworks */,
+				9D4E00431D2BA61F00091FDD /* CoreTelephony.framework in Frameworks */,
+				9D4E00411D2BA60F00091FDD /* libsqlite3.tbd in Frameworks */,
+				9D4E003F1D2BA60100091FDD /* CoreGraphics.framework in Frameworks */,
+				9D4E003D1D2BA5ED00091FDD /* SystemConfiguration.framework in Frameworks */,
+				9D4E003B1D2BA5DC00091FDD /* libiconv.tbd in Frameworks */,
+				9D4E00391D2BA5CC00091FDD /* Security.framework in Frameworks */,
 				9D3925201C0C1B1F0055B2EE /* libWeChatSDK.a in Frameworks */,
 				9D3925221C0C1B1F0055B2EE /* libWeiboSDK.a in Frameworks */,
 				9D39251E1C0C1B1F0055B2EE /* TencentOpenAPI.framework in Frameworks */,
@@ -73,6 +116,14 @@
 		9D3924C51C0C1A650055B2EE = {
 			isa = PBXGroup;
 			children = (
+				9D4E00461D2BA63700091FDD /* libz.tbd */,
+				9D4E00441D2BA62C00091FDD /* libstdc++.tbd */,
+				9D4E00421D2BA61F00091FDD /* CoreTelephony.framework */,
+				9D4E00401D2BA60F00091FDD /* libsqlite3.tbd */,
+				9D4E003E1D2BA60100091FDD /* CoreGraphics.framework */,
+				9D4E003C1D2BA5ED00091FDD /* SystemConfiguration.framework */,
+				9D4E003A1D2BA5DC00091FDD /* libiconv.tbd */,
+				9D4E00381D2BA5CC00091FDD /* Security.framework */,
 				9D3924D01C0C1A650055B2EE /* LCShareKit */,
 				9D3924CF1C0C1A650055B2EE /* Products */,
 			);
@@ -89,6 +140,7 @@
 		9D3924D01C0C1A650055B2EE /* LCShareKit */ = {
 			isa = PBXGroup;
 			children = (
+				9D4E001E1D2B885D00091FDD /* LCShareKit */,
 				9D3924D41C0C1A650055B2EE /* AppDelegate.h */,
 				9D3924D51C0C1A650055B2EE /* AppDelegate.m */,
 				9D3924D71C0C1A650055B2EE /* ViewController.h */,
@@ -160,6 +212,50 @@
 				9D39251B1C0C1B1F0055B2EE /* WeiboUser.h */,
 			);
 			path = WeiboSDK;
+			sourceTree = "<group>";
+		};
+		9D4E001E1D2B885D00091FDD /* LCShareKit */ = {
+			isa = PBXGroup;
+			children = (
+				9D4E00261D2B92F100091FDD /* QQ */,
+				9D4E00271D2B92F100091FDD /* Wechat */,
+				9D4E00281D2B92F100091FDD /* Weibo */,
+				9D4E001F1D2B890500091FDD /* LCShareManager.h */,
+				9D4E00201D2B890500091FDD /* LCShareManager.m */,
+				9D4E00251D2B913500091FDD /* LCShareDefine.h */,
+				9D4E00321D2B941300091FDD /* LCPlatformObject.h */,
+				9D4E00331D2B941300091FDD /* LCPlatformObject.m */,
+				9D4E00351D2B999F00091FDD /* LCLoginInfo.h */,
+				9D4E00361D2B999F00091FDD /* LCLoginInfo.m */,
+			);
+			path = LCShareKit;
+			sourceTree = "<group>";
+		};
+		9D4E00261D2B92F100091FDD /* QQ */ = {
+			isa = PBXGroup;
+			children = (
+				9D4E002F1D2B934800091FDD /* LCQQObject.h */,
+				9D4E00301D2B934800091FDD /* LCQQObject.m */,
+			);
+			path = QQ;
+			sourceTree = "<group>";
+		};
+		9D4E00271D2B92F100091FDD /* Wechat */ = {
+			isa = PBXGroup;
+			children = (
+				9D4E002C1D2B933200091FDD /* LCWechatObject.h */,
+				9D4E002D1D2B933200091FDD /* LCWechatObject.m */,
+			);
+			path = Wechat;
+			sourceTree = "<group>";
+		};
+		9D4E00281D2B92F100091FDD /* Weibo */ = {
+			isa = PBXGroup;
+			children = (
+				9D4E00291D2B930F00091FDD /* LCWeiboObject.h */,
+				9D4E002A1D2B930F00091FDD /* LCWeiboObject.m */,
+			);
+			path = Weibo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,9 +333,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D4E00341D2B941300091FDD /* LCPlatformObject.m in Sources */,
+				9D4E00311D2B934800091FDD /* LCQQObject.m in Sources */,
+				9D4E00211D2B890500091FDD /* LCShareManager.m in Sources */,
 				9D3924D91C0C1A650055B2EE /* ViewController.m in Sources */,
 				9D3924D61C0C1A650055B2EE /* AppDelegate.m in Sources */,
+				9D4E00371D2B999F00091FDD /* LCLoginInfo.m in Sources */,
+				9D4E002E1D2B933200091FDD /* LCWechatObject.m in Sources */,
 				9D3924D31C0C1A650055B2EE /* main.m in Sources */,
+				9D4E002B1D2B930F00091FDD /* LCWeiboObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +514,7 @@
 				9D3924E71C0C1A650055B2EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
